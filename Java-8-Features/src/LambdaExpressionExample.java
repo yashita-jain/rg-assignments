@@ -1,0 +1,9 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class LambdaExpressionExample {
+    public static void main(String[] args) {
+        List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David");
+        names.forEach(name -> System.out.println(name));
+    }
+}
